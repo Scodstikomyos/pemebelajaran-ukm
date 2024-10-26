@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir</title>
+</head>
+<body>
+    <h1>Biodata</h1>
+    <form action="/submit" method="Post">
+        <label for="Nama">Nama</label><br>
+        <input type="text" placeholder="Isi Nama" name="Nama" id="Nama" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Isi Email" name="Email" id="Email" required><br><br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" rows="4" cols="50" placeholder="Isi Alamat" required></textarea><br><br>
+
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="laki-laki" value="laki-laki" required>
+        <label for="laki-laki">Laki-laki</label> 
+        <input type="radio" name="gender" id="perempuan" value="perempuan" required>
+        <label for="perempuan">Perempuan</label> <br><br>
+
+        <label for="hobi">Hobi</label><br>
+        <input type="checkbox" name="hobi" id="Futsal" value="Futsal" required>
+        <label for="Futsal">Futsal</label> 
+        <input type="checkbox" name="hobi" id="Futsal" value="Futsal" required>
+        <label for="Futsal">Bola</label> 
+        <input type="checkbox" name="hobi" id="Futsal" value="Futsal" required>
+        <label for="Futsal">Voli</label> 
+        <input type="checkbox" name="hobi" id="Futsal" value="Futsal" required>
+        <label for="Futsal">Lari</label> <br><br>
+
+        <label for="Prodi">Prodi</label><br>
+        <select name="Prodi" id="Prodi">
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknik Informasi">Teknik Informasi</option>
+            <option value="Teknik Multimedia dan Jaringan">Teknik Multimedia dan Jaringan</option>
+            <option value="Komputerisasi Akuntansi">Komputerisasi Akuntansi</option>
+        </select><br><br>
+
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
